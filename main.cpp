@@ -75,7 +75,7 @@ int main(int argc, char* argv[])
             
 std::cout << "Exiting program. Goodbye!\n"; 
             break;
-            default: std::cout << "Invalid menu choice. Please choose 0-13.\n";
+            default: std::cout << "Invalid menu choice. Please choose 0-12.\n";
         }
     } while (choice != 0);
     return 0;
