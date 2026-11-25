@@ -1,5 +1,6 @@
 #ifndef RECORD_MANAGER_HPP
 #define RECORD_MANAGER_HPP
+
 #include <vector>
 #include "CircuitRecord.hpp"
 

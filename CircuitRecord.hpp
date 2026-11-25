@@ -1,5 +1,6 @@
 #ifndef CIRCUIT_RECORD_HPP
 #define CIRCUIT_RECORD_HPP
+
 #include <string>
 
 // Programmer's Name: MOHD ADAM HAIKAL BIN ROSLI | 26104652

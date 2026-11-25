@@ -52,7 +52,10 @@ void updateRecord(std::vector<CircuitRecord>& records)
 void deleteRecord(std::vector<CircuitRecord>& records) 
 {
     int id = readInteger("Enter record ID to delete: ");
-    auto it = std::find_if(records.begin(), records.end(), [id](const CircuitRecord& r){ return r.getId() == id; });
+    auto it = std::find_if(records.begin(), records.end(), [id](const CircuitRecord& r)
+    { 
+        return r.getId() == id; 
+    });
     if (it == records.end()) 
     { 
         std::cout << "Record not found.\n"; 
