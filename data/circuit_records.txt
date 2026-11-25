@@ -1,3 +1,6 @@
-1|Voltage|2|3|6|V
-2|Current|3|2|1.5|A
-3|Power|12|3|36|W
+1|Voltage|2|10|20|V
+2|Current|12|4|3|A
+3|Resistance|12|2|6|ohm
+4|Power|12|3|36|W
+5|CapacitiveReactance|50|100|31.831|ohm
+6|InductiveReactance|50|20|6.283|ohm
