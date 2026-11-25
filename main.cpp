@@ -1,11 +1,21 @@
-// Mini Project: Electrical Circuit Calculation System
-// Purpose: Develop a system that allows users to perform circuit calculations, store and manage calculation records, and retrieve previous results for future reference.
-// Programmer's Name:
-// 1. TAN ISSEY                              | 26103162
-// 2. LIM XIN EN                             | 26104879
-// 3. MOHAMMAD HAZMER FARIHIN BIN MOHD MAJID | 26103651
-// 4. MOHD ADAM HAIKAL BIN ROSLI             | 26104652
-
+/* Mini Project: Electrical Circuit Calculation System
+ Purpose: Develop a system that allows users to perform circuit calculations, store and manage calculation records, and retrieve previous results for future reference.
+ Project Assumptions:
+ 1. The system performs six basic electrical calculations only.
+ 2. All electrical input values must be greater than zero.
+ 3. Capacitance is entered in microfarads (uF).
+ 4. Inductance is entered in millihenry (mH).
+ 5. Calculations are based on standard formulas for ideal components.
+ 6. Updating a record changes only its calculated result.
+ 7. Records can be sorted in ascending or descending order by calculated result.
+ 8.Records are stored in a local text file.
+ 9.The system uses a command-line interface without a GUI.
+ Programmer's Name:
+ 1. TAN ISSEY                              | 26103162
+ 2. LIM XIN EN                             | 26104879
+ 3. MOHAMMAD HAZMER FARIHIN BIN MOHD MAJID | 26103651
+ 4. MOHD ADAM HAIKAL BIN ROSLI             | 26104652
+*/
 #include "Calculation.hpp"
 #include "RecordManager.hpp"
 #include "FileManager.hpp"
